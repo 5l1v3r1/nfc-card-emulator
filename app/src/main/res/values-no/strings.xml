@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">NFC Kortemulator</string>
+    <string name="Scan">Skann</string>
+    <string name="Emu">Emuler</string>
+    <string name="Edit">Rediger</string>
+    <string name="servicedesc">Vertskortemulatortjeneste</string>
+    <string name="aiddescription">Exemple AID for testing</string>
+    <string name="name">Navn</string>
+    <string name="save">Lagre</string>
+    <string name="cancel">Avbryt</string>
+    <string name="empty_name">Navn kan ikke være tom</string>
+    <string name="card_list_headline">Velg et kort å emulere</string>
+    <string name="card_scan_headline">Skann kortet ditt nå</string>
+    <string name="btn_addCard">Legg til kort</string>
+    <string name="card_not_supported">Korttypen din er ikke støttet</string>
+    <string name="btn_cancelAddCard">Avbryt</string>
+    <string name="lbl_addCardHeadline">Legg til kortet</string>
+    <string name="lblAddCard_cardName">Kortnavn</string>
+    <string name="addCard_waitForLocation">Vennligst vent mens vi henter din posisjon</string>
+    <string name="location_unknown">Posisjon ukjent</string>
+    <string name="lbl_cardSort">Velg sorteringsattributt</string>
+    <string name="lbl_cardScanHelp">1. Hold kortet til baksiden av enheten din i 3-5 sekunder\n2. Når et støttet kort er oppdaget vil IDen til kortet bli vist og du kan trykke på \"Legg til kort\" knappen for å gå videre</string>
+    <string name="lbl_emulateHeadline">Hold mobilen mot leseren</string>
+    <string  name="nfc_not_available">NFC er ikke tilgjengelig</string>
+    <string name="hold_card_longer">Vennligst hold kortet lenger</string>
+    <string name="card_in_database">Kortet du prøvde å legge til finnes allerede i Databasen</string>
+</resources>

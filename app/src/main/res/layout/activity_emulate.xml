@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EmulateActivity">
+
+    <TextView
+        android:id="@+id/lbl_emulateHeadline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/lbl_emulateHeadline"
+        android:textColor="@color/colorDark"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtEmulate_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/lbl_emulateHeadline"
+        android:layout_marginTop="50dp"
+        tools:text="ID: 11 f3 a5 e3"
+        android:textColor="@color/colorDark" />
+
+    <TextView
+        android:id="@+id/txtEmulate_cardName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/txtEmulate_id"
+        android:layout_marginTop="35dp"
+        tools:text="NTNU kort"
+        android:textColor="@color/colorDark"/>
+</RelativeLayout>

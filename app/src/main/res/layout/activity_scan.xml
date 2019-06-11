@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/scanActivityMainView"
+    tools:context=".ScanActivity" >
+
+    <TextView
+        android:id="@+id/lbl_cardScanHeadline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="@string/card_scan_headline"
+        android:textColor="@color/colorDark"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/lbl_cardScanHelp"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/lbl_cardScanHeadline"
+        android:layout_centerHorizontal="true"
+        android:text="@string/lbl_cardScanHelp" />
+
+    <TextView
+        android:id="@+id/txt_cardId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:textColor="@color/colorDark"
+        android:textSize="15sp"
+        tools:text="ID: AA BB 02 DF" />
+
+    <Button
+        android:id="@+id/btn_addCardScan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_addCard"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="50dp" />
+
+</RelativeLayout>

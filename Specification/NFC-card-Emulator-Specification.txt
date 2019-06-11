@@ -1,0 +1,43 @@
+NFC-card-Emulator
+
+Pros:
+-Christoffer likes the idea
+-Convoluted so good complexity(?)
+Cons:
+-Convoluted so difficult
+-Might be illegal(Ask someone about that)
+
+
+APP FEATURES:
+
+-NFC Scanner:
+	-Open App
+	-Select Scan
+	-Hold phone within 4 cm of card (5 secs)
+	-Confirm(I guess)
+	-Give name to new "Card"
+
+-NFC Sender:
+	-Open App
+	-Select Emulator
+	-Select stored Card
+	-Cofirm
+	-Hold to scanner (Possible delay?)
+
+-Storage:
+	-Once a Card is Scanned (See scanner)
+	-Get current GPS location
+	-Get Current time
+	-Save to some long term storage
+	-When Queried about cards, should present card as :
+		Options:
+		-Ordered by distance to current location
+		-Ordered by name
+		-Ordered by time
+	-Can Also delete cards
+	-Can rename Cards
+
+-Localization:
+	-Norsk
+	-Engelsk
+	-Tysk

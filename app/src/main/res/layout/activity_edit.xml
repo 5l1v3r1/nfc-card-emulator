@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditActivity">
+
+
+    <TextView
+        android:id="@+id/edit_txt_error"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/edit_txt_name"
+        android:layout_above="@id/edit_btn_save"
+        android:layout_marginBottom="40dp"
+        android:textSize= "15sp"/>
+
+    <TextView
+        android:id="@+id/edit_txt_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_above="@id/edit_txt_error"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/name"
+        android:textSize="50sp" />
+
+    <EditText
+        android:id="@+id/edit_edittxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/edit_txt_name"
+        android:layout_alignBottom="@+id/edit_txt_name"
+        android:textSize="20sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+
+    <Button
+        android:id="@+id/edit_btn_cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/edit_btn_save"
+        android:layout_marginTop="20dp"
+        android:textSize="40sp"
+        android:text="@string/cancel"/>
+    <Button
+        android:id="@+id/edit_btn_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="20dp"
+        android:textSize="40sp"
+        android:text="@string/save"/>
+</RelativeLayout>

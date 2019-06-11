@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:id="@+id/cardListItemParentLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:layout_margin="5dp"
+    android:foreground="?attr/selectableItemBackground"
+    android:background="#E2E2E2">
+
+    <TextView
+        android:id="@+id/tvCardName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorDark"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:text="Kort til NTNU" />
+
+    <TextView
+        android:id="@+id/tvCardDateCreated"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvCardName"
+        android:textColor="@color/colorDark"
+        android:paddingTop="10dp"
+        tools:text="01.01.1970 00:00:00" />
+
+    <TextView
+        android:id="@+id/tvCardLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvCardDateCreated"
+        android:textColor="@color/colorDark"
+        android:textStyle="italic"
+        tools:text="Gjøvik, NO" />
+
+</RelativeLayout>

@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">NFC Card Emulator</string>
+    <string name="Scan">Scan</string>
+    <string name="Emu">Emulate</string>
+    <string name="Edit">Edit</string>
+    <string name="servicedesc">Host Card Emulator Service</string>
+    <string name="aiddescription">Sample AID for testing</string>
+    <string name="name">Name</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="empty_name">Name can not be empty</string>
+    <string name="card_list_headline">Select a card to emulate</string>
+    <string name="card_scan_headline">"Scan your card now</string>
+    <string name="btn_addCard">Add card</string>
+    <string name="card_not_supported">Your card type is not supported.</string>
+    <string name="btn_cancelAddCard">Cancel</string>
+    <string name="lbl_addCardHeadline">Add your card</string>
+    <string name="lblAddCard_cardName">Card name</string>
+    <string name="addCard_waitForLocation">Please wait while we retrieve your location</string>
+    <string name="location_unknown">Location unknown</string>
+    <string name="lbl_cardSort">Select sorting attribute</string>
+    <string name="lbl_cardScanHelp">1. Hold your card to the back of your device for 3-5 seconds\n2. When a supported card is discovered its ID will be shown and you can click the \"Add card\" button to proceed</string>
+    <string name="lbl_emulateHeadline">Hold your phone against the reader</string>
+    <string name="nfc_not_available">NFC is not available</string>
+    <string name="hold_card_longer">Please hold your card longer</string>
+    <string name="card_in_database">The Card you tried to add is already in the Database</string>
+</resources>

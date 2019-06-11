@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddCardActivity">
+
+    <TextView
+        android:id="@+id/lbl_addCardHeadline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="@string/lbl_addCardHeadline"
+        android:textColor="@color/colorDark"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/lblAddCard_cardName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lbl_addCardHeadline"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="25dp"
+        android:text="@string/lblAddCard_cardName"
+        android:textColor="@color/colorDark"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/editTxt_cardName"
+        android:layout_width="156dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/lblAddCard_cardName"
+        android:layout_marginStart="3dp"
+        android:layout_marginBottom="-6dp"
+        android:layout_toEndOf="@+id/lblAddCard_cardName"
+        android:singleLine="true"
+        android:maxLines="1"
+        android:lines="1"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/txtAddCard_cardId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lblAddCard_cardName"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/colorDark"
+        tools:text="ID: 11 22 EE FD" />
+
+    <TextView
+        android:id="@+id/txtAddCard_dateCreated"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtAddCard_cardId"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/colorDark"
+        tools:text="2019.09.20 11:22" />
+
+    <TextView
+        android:id="@+id/txtAddCard_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtAddCard_dateCreated"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/colorDark"
+        tools:text="Gjøvik, NO" />
+
+    <Button
+        android:id="@+id/btn_cancelAddCard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="35dp"
+        android:text="@string/btn_cancelAddCard" />
+
+    <Button
+        android:id="@+id/btn_addCard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="35dp"
+        android:text="@string/btn_addCard" />
+
+    <ProgressBar
+        android:id="@+id/prg_location"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"/>
+</RelativeLayout>
