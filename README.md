@@ -1,26 +1,10 @@
-# nfc-card-reader
+# nfc-card-emulator
 
-Group project for IMT 3673
+Group project for IMT 3673 Mobile/Wearable Programming (2 people)
 
-
-## Notice
-This is for educational purposes ***only***. Do not abuse. :)
-
-If you ***do*** decide to abuse this, the original creators can not be held 
-responsible.
-
-
-## Group
-
-Group number [#3 from Project Groups](http://prod3.imt.hig.no/teaching/imt3673-2019/wikis/Project-Groups#3-nfc-card-emulator) on the wiki.
-
-* Leon Cinquemani
-* Håkon Schia
 
 
 ## The idea
-
-Idea [#6 from Project Ideas](http://prod3.imt.hig.no/teaching/imt3673-2019/wikis/Project-Ideas#nfc-card-emulator) on the wiki.
 
 The idea is to use your card as an emulator for an access card, such as the NTNU cards. You scan a card and store it, and then it can later be used as a replacement for the card.
 
@@ -59,6 +43,8 @@ Scanning a Mifare Classic card when the app is closed opens the scanning activit
 
 
 ## Problems with emulating
+
+If you've stumbled across this repo by trying to emulate Mifare Classic cards on Android, I'm sorry to tell you that you're out of luck. Doesn't work (at least at the time of writing).
 
 Mifare is a proprietary technology and Mifare Classic doesn't seem to use NDEF messages to hold data.
 We tried gathering the data by reading the blocks inside the sectors on the card, and we do get some data, but we haven't found a way to use this in a meaningful way.
